@@ -1,0 +1,42 @@
+body {
+    background-image: linear-gradient(to right, #ee8c8c, #30025c);
+    margin: 0;
+    padding-top: 30px;
+    display: flex;          /* Ativa o flexbox no body */
+    justify-content: center; /* Centraliza o #main horizontalmente */
+}
+
+p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;     /* Centraliza o texto dos parágrafos */
+}
+
+#main {
+    width: 90%;
+    max-width: 500px;       /* Evita que fique gigante em telas de computador */
+}
+
+#save {
+    text-align: center;     /* Centraliza o formulário e inputs dentro do bloco */
+}
+
+form {
+    display: flex;          /* Alinha o input e o botão lado a lado */
+    justify-content: center; /* Centraliza a dupla input+botão no meio */
+    gap: 10px;              /* Cria um espaçamento moderno entre o input e o botão */
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
